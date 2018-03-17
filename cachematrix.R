@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions given below are used to create a matrix and to find the inverse of the matrix. The first function 
+## gives you a list and the second function gives you the inverse. If inverse exists, it returns that value.
 
 ## Use this function to create a matrix of your choice(square preferably!!)
 
