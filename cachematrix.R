@@ -1,7 +1,7 @@
 ## The functions given below are used to create a matrix and to find the inverse of the matrix. The first function 
 ## gives you a list and the second function gives you the inverse. If inverse exists, it returns that value.
 
-## Use this function to create a matrix of your choice(square preferably!!)
+## Use this function to create a matrix of your choice(square preferably if you want inverse!!)
 
 makeCacheMatrix <- function(x = matrix()) {
 inv<-NULL
@@ -16,7 +16,7 @@ list(set=set,get=get,setinv=setinv,getinv=getinv)
 }
 
 
-## This function can be used to calculate the inverse of required matrix.
+## This function can be used to calculate the inverse of required matrix with the list above as the input.
 
 cacheSolve <- function(x, ...) {
        check<-x$getinv()
